@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn Morse Code</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Learn Morse Code</h1>
+    </header>
+
+    <main>
+        <div class="progress-bar-outline">
+            <div class="progress-bar-fill">
+            </div>
+        </div>
+        <div>
+            <big id="prompt"></big>
+            <form action="">
+                <input type="text" name="answer" id="answer-input"
+                    onkeydown="if (event.keyCode == 13) {event.preventDefault();updateScore();}">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

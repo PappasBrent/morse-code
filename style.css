@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+big {
+    font-size: 300%;
+}
+
+.progress-bar-outline {
+    margin: 0 auto;
+    height: 50px;
+    width: 80%;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+.progress-bar-fill {
+    margin: 0;
+    height: 100%;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+input[name="answer"] {
+    transition: all 0.3s ease-in-out;
+    font-size: 250%;
+}
